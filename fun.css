@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #e0e0e08c;
+	font-style: 'Hind Siliguri', sans-serif;
+}
+.FullWrapper{
+	background: #7a00ff;
+	color: white;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	place-content:center;
+	width: 250px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.9s;
+}
+.TextWrapper > div {
+	padding: 10px;
+	background: #080808;
+	margin: 15px;
+}
+
+
+
+
+
